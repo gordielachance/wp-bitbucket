@@ -1,0 +1,392 @@
+.wp-bitbucket .avatar32 {
+    border-radius: 3px;
+    width: 32px;
+    height: 32px;
+}
+.wp-bitbucket .avatar {
+    display: inline;
+}
+
+.wp-bitbucket .rss {
+    background-image: url('https://d3oaxc4q5k2d6q.cloudfront.net/m/d0afa9df492c/img/icons/svg/rss.svg?750221202869');
+    background-size: 16px;
+}
+.wp-bitbucket .icon {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-indent: -9999px;
+}
+
+.wp-bitbucket .changeset-hash {
+    font: 85% Monaco,monospace;
+}
+
+.wp-bitbucket .newsfeed .news-item .avatar {
+    float: left;
+    margin: 1px 0 0 -47px;
+}
+
+.wp-bitbucket .newsfeed {
+  border-left: 1px solid #ccc;
+  margin-left: 20px;
+  margin-top: 5px;
+  position: relative;
+}
+
+.wp-bitbucket .newsfeed .news-item {
+  margin-top: 18px;
+  padding-left: 80px;
+  position: relative;
+}
+
+.wp-bitbucket .newsfeed .news-item:first-child {
+  margin-top: 0;
+}
+
+.wp-bitbucket .newsfeed .news-item:last-child {
+  border-left: 1px solid #fff;
+  margin-left: -1px;
+}
+
+.wp-bitbucket .newsfeed .news-item .icon {
+  background: #fff 0 0 no-repeat;
+  background-image: url('data:image/png;base64,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');
+  border: 1px solid #ccc;
+  border-radius: 32px;
+  content: '';
+  display: block;
+  height: 32px;
+  left: -17px;
+  position: absolute;
+  width: 32px;
+}
+
+.wp-bitbucket .newsfeed .news-item .icon:after {
+  background: #fff 0 0 no-repeat;
+  /* media/img/newsfeed_icons.png */
+  background-image: url('data:image/png;base64,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');
+  border-bottom: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-radius: 20px;
+  bottom: -7px;
+  content: "";
+  display: block;
+  height: 18px;
+  left: -7px;
+  position: absolute;
+  width: 18px;
+}
+
+.wp-bitbucket .newsfeed .news-item time {
+  color: #707070;
+  font-size: 12px;
+}
+
+.wp-bitbucket .newsfeed .news-item .avatar {
+  float: left;
+  margin: 1px 0 0 -47px;
+}
+
+.wp-bitbucket .newsfeed .news-item p {
+  line-height: 1;
+  margin-top: 0;
+}
+
+.wp-bitbucket .newsfeed .news-item p.additional-info {
+  margin-top: 4px;
+  border-left: 1px solid #ccc;
+  margin-left: -15px;
+  overflow: hidden;
+  padding: 5px 10px 5px 15px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.wp-bitbucket .newsfeed .news-item p + p {
+  margin-top: 5px;
+  line-height: 1.42857;
+}
+
+.wp-bitbucket .newsfeed .commit .changeset {
+  margin-top: 4px;
+  border-left: 1px solid #ccc;
+  margin-left: -15px;
+  overflow: hidden;
+  padding: 5px 10px 5px 15px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.wp-bitbucket .newsfeed .commit .changeset + .changeset {
+  margin-top: 0;
+}
+
+.wp-bitbucket .newsfeed .commit .changeset .commit-hash {
+  margin-right: 3px;
+}
+
+/* create repo */
+.wp-bitbucket .newsfeed .news-item .icon.create {
+  background-position: 0 -32px;
+}
+.wp-bitbucket .newsfeed .news-item .icon.create:after {
+  background-position: 0 0;
+}
+
+/* delete repo */
+.wp-bitbucket .newsfeed .news-item .icon.delete {
+  background-position: 0 -32px;
+}
+.wp-bitbucket .newsfeed .news-item .icon.delete:after {
+  background-position: 0 -90px;
+}
+
+/* fork repo */
+.wp-bitbucket .newsfeed .news-item .icon.fork {
+  background-position: 0 -32px;
+}
+.wp-bitbucket .newsfeed .news-item .icon.fork:after {
+  background-position: 0 -36px;
+}
+
+/* create patch queue */
+.wp-bitbucket .newsfeed .news-item .icon.mq {
+  background-position: 0 -32px;
+}
+.wp-bitbucket .newsfeed .news-item .icon.mq:after {
+  background-position: 0 -36px;
+}
+
+/* commit changeset */
+.wp-bitbucket .newsfeed .news-item .icon.commit {
+  background-position: 0 -32px;
+}
+.wp-bitbucket .newsfeed .news-item .icon.commit:after {
+  background-position: 0 -18px;
+}
+
+/* strip changeset */
+.wp-bitbucket .newsfeed .news-item .icon.strip {
+  background-position: 0 -32px;
+}
+.wp-bitbucket .newsfeed .news-item .icon.strip:after {
+  background-position: 0 -90px;
+}
+
+/* approve commit */
+.wp-bitbucket .newsfeed .news-item .icon.cset_like,
+.wp-bitbucket .newsfeed .news-item .icon.cset_unlike {
+  background-position: 0 -32px;
+}
+.wp-bitbucket .newsfeed .news-item .icon.cset_like:after {
+  /* TODO Use green tick. */
+  background-position: 0 -54px;
+}
+.wp-bitbucket .newsfeed .news-item .icon.cset_unlike:after {
+  background-position: 0 -108px;
+}
+
+/* upload file */
+.wp-bitbucket .newsfeed .news-item .icon.file_uploaded {
+  background-position: 0 -96px;
+}
+.wp-bitbucket .newsfeed .news-item .icon.file_uploaded:after {
+  background-position: 0 0;
+}
+
+/* report issue */
+.wp-bitbucket .newsfeed .news-item .icon.report_issue {
+  background-position: 0 -128px;
+}
+.wp-bitbucket .newsfeed .news-item .icon.report_issue:after {
+  background-position: 0 0;
+}
+
+/* update issue */
+.wp-bitbucket .newsfeed .news-item .icon.issue_update {
+  background-position: 0 -128px;
+}
+.wp-bitbucket .newsfeed .news-item .icon.issue_update:after {
+  background-position: 0 -72px;
+}
+
+/* create comment (issue, pull request, changeset) */
+.wp-bitbucket .newsfeed .news-item .icon.issue_comment,
+.wp-bitbucket .newsfeed .news-item .icon.pullrequest_comment_created,
+.wp-bitbucket .newsfeed .news-item .icon.cset_comment_created {
+  background-position: 0 -192px; /* need icon for comment */
+}
+.wp-bitbucket .newsfeed .news-item .icon.issue_comment:after,
+.wp-bitbucket .newsfeed .news-item .icon.pullrequest_comment_created:after,
+.wp-bitbucket .newsfeed .news-item .icon.cset_comment_created:after {
+  background-position: 0 0;
+}
+
+/* delete comment (issue, pull request, changeset) */
+.wp-bitbucket .newsfeed .news-item .icon.issue_comment_deleted,
+.wp-bitbucket .newsfeed .news-item .icon.pullrequest_comment_deleted,
+.wp-bitbucket .newsfeed .news-item .icon.cset_comment_deleted {
+  background-position: 0 -192px;
+}
+.wp-bitbucket .newsfeed .news-item .icon.issue_comment_deleted:after,
+.wp-bitbucket .newsfeed .news-item .icon.pullrequest_comment_deleted:after,
+.wp-bitbucket .newsfeed .news-item .icon.cset_comment_deleted:after {
+  background-position: 0 -90px;
+}
+
+/* update comment (issue, pull request, changeset) */
+.wp-bitbucket .newsfeed .news-item .icon.issue_comment_updated,
+.wp-bitbucket .newsfeed .news-item .icon.pullrequest_comment_updated,
+.wp-bitbucket .newsfeed .news-item .icon.cset_comment_updated {
+  background-position: 0 -192px;
+}
+.wp-bitbucket .newsfeed .news-item .icon.issue_comment_updated:after,
+.wp-bitbucket .newsfeed .news-item .icon.pullrequest_comment_updated:after,
+.wp-bitbucket .newsfeed .news-item .icon.cset_comment_updated:after {
+  background-position: 0 -72px;
+}
+
+/* start following (issue, repo, pull request, user) */
+.wp-bitbucket .newsfeed .news-item .icon.start_follow_issue,
+.wp-bitbucket .newsfeed .news-item .icon.start_follow_repo,
+.wp-bitbucket .newsfeed .news-item .icon.start_follow_user,
+.wp-bitbucket .newsfeed .news-item .icon.start_follow_pullrequest {
+  background-position: 0 -64px;
+}
+.wp-bitbucket .newsfeed .news-item .icon.start_follow_issue:after,
+.wp-bitbucket .newsfeed .news-item .icon.start_follow_repo:after,
+.wp-bitbucket .newsfeed .news-item .icon.start_follow_user:after,
+.wp-bitbucket .newsfeed .news-item .icon.start_follow_pullrequest:after {
+  background-position: 0 0;
+}
+
+/* start following (issue, repo, pull request, user) */
+.wp-bitbucket .newsfeed .news-item .icon.stop_follow_issue,
+.wp-bitbucket .newsfeed .news-item .icon.stop_follow_repo,
+.wp-bitbucket .newsfeed .news-item .icon.stop_follow_user,
+.wp-bitbucket .newsfeed .news-item .icon.stop_follow_pullrequest {
+  background-position: 0 -64px;
+}
+.wp-bitbucket .newsfeed .news-item .icon.stop_follow_issue:after,
+.wp-bitbucket .newsfeed .news-item .icon.stop_follow_repo:after,
+.wp-bitbucket .newsfeed .news-item .icon.stop_follow_user:after,
+.wp-bitbucket .newsfeed .news-item .icon.stop_follow_pullrequest:after {
+  background-position: 0 -90px;
+}
+
+.wp-bitbucket .newsfeed .news-item .icon.joined-bitbucket {
+  /* img/joined_bitbucket.png */
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAkCAYAAAAOwvOmAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYxIDY0LjE0MDk0OSwgMjAxMC8xMi8wNy0xMDo1NzowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNS4xIE1hY2ludG9zaCIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo1NzE1RjJDODA5OUYxMUUyOTNCRTk3QzRFQ0U0NDAzMCIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo1NzE1RjJDOTA5OUYxMUUyOTNCRTk3QzRFQ0U0NDAzMCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjAwRjNEOUVCMDk5RTExRTI5M0JFOTdDNEVDRTQ0MDMwIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjAwRjNEOUVDMDk5RTExRTI5M0JFOTdDNEVDRTQ0MDMwIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+1PivSQAABl5JREFUeNq0WAts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');
+  background-position: -2px -2px;
+}
+.wp-bitbucket .newsfeed .news-item .icon.joined-bitbucket:after {
+  display: none;
+}
+
+/* create wiki */
+.wp-bitbucket .newsfeed .news-item .icon.wiki_created {
+  background-position: 0 -160px;
+}
+.wp-bitbucket .newsfeed .news-item .icon.wiki_created:after {
+  background-position: 0 0;
+}
+
+/* update wiki */
+.wp-bitbucket .newsfeed .news-item .icon.wiki_updated {
+  background-position: 0 -160px;
+}
+.wp-bitbucket .newsfeed .news-item .icon.wiki_updated:after {
+  background-position: 0 -72px;
+}
+
+/* delete wiki */
+.wp-bitbucket .newsfeed .news-item .icon.wiki_deleted {
+  background-position: 0 -160px;
+}
+.wp-bitbucket .newsfeed .news-item .icon.wiki_deleted:after {
+  background-position: 0 -90px;
+}
+
+/* create pull request */
+.wp-bitbucket .newsfeed .news-item .icon.pullrequest_created {
+  background-position: 0 0;
+}
+.wp-bitbucket .newsfeed .news-item .icon.pullrequest_created:after {
+  background-position: 0 0;
+}
+
+/* update pull request */
+.wp-bitbucket .newsfeed .news-item .icon.pullrequest_updated {
+  background-position: 0 0;
+}
+.wp-bitbucket .newsfeed .news-item .icon.pullrequest_updated:after {
+  background-position: 0 -72px;
+}
+
+/* fulfill pull request */
+.wp-bitbucket .newsfeed .news-item .icon.pullrequest_fulfilled {
+  background-position: 0 0;
+}
+.wp-bitbucket .newsfeed .news-item .icon.pullrequest_fulfilled:after {
+  background-position: 0 -54px;
+}
+
+/* reject pull request */
+.wp-bitbucket .newsfeed .news-item .icon.pullrequest_rejected {
+  background-position: 0 0;
+}
+.wp-bitbucket .newsfeed .news-item .icon.pullrequest_rejected:after {
+  background-position: 0 -90px;
+}
+
+/* supersede pull request */
+.wp-bitbucket .newsfeed .news-item .icon.pullrequest_superseded {
+  background-position: 0 0;
+}
+.wp-bitbucket .newsfeed .news-item .icon.pullrequest_superseded:after {
+  background-position: 0 -90px;
+}
+
+/* approve pull request */
+.wp-bitbucket .newsfeed .news-item .icon.pullrequest_like,
+.wp-bitbucket .newsfeed .news-item .icon.pullrequest_unlike {
+  background-position: 0 0;
+}
+.wp-bitbucket .newsfeed .news-item .icon.pullrequest_like:after {
+  /* TODO Update to use the green tick. */
+  background-position: 0 -54px;
+}
+.wp-bitbucket .newsfeed .news-item .icon.pullrequest_unlike:after {
+  background-position: 0 -108px;
+}
+
+/* gain team access */
+.wp-bitbucket .newsfeed .news-item .icon.team_access_gained_admin,
+.wp-bitbucket .newsfeed .news-item .icon.team_access_gained_collab {
+  background-position: 0 -224px;
+}
+.wp-bitbucket .newsfeed .news-item .icon.team_access_gained_admin:after,
+.wp-bitbucket .newsfeed .news-item .icon.team_access_gained_collab:after {
+  background-position: 0 0;
+}
+
+/* change team access */
+.wp-bitbucket .newsfeed .news-item .icon.team_access_changed_admin,
+.wp-bitbucket .newsfeed .news-item .icon.team_access_changed_collab {
+  background-position: 0 -224px;
+}
+.wp-bitbucket .newsfeed .news-item .icon.team_access_changed_admin:after,
+.wp-bitbucket .newsfeed .news-item .icon.team_access_changed_collab:after {
+  background-position: 0 -72px;
+}
+
+/* lost team access */
+.wp-bitbucket .newsfeed .news-item .icon.team_lost_access {
+  background-position: 0 -224px;
+}
+.wp-bitbucket .newsfeed .news-item .icon.team_lost_access:after {
+  background-position: 0 -90px;
+}

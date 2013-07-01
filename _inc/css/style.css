@@ -1,0 +1,7 @@
+.xspf-plgen-links{
+    text-align:right;
+}
+.xspf-plgen-links a {
+    display:inline-block;
+    margin-right:10px;
+}
