@@ -47,6 +47,8 @@ Upload the plugin to your blog and Activate it.
 
 == Changelog ==
 
+= 0.2.1 =
+* Fixed double slash bug
 = 0.1 =
 * First release
 

@@ -4,8 +4,8 @@
  * Plugin URI: http://wordpress.org/extend/plugins/bbpress-pencil-unread
  * Description: Load blocks from BitBucket into your Wordpress, using shortcodes
  * Author: G.Breant
- * Version: 0.2
- * Author URI: http://pencil2d.org
+ * Version: 0.2.1
+ * Author URI: http://sandbox.pencil2d.org/
  * License: GPL2+
  * Text Domain: wp-bitbucket
  * Domain Path: /languages/
@@ -15,7 +15,7 @@ class WpBitbucket {
         /**
          * @public string plugin version
          */
-        public $version = '0.2';
+        public $version = '0.2.1';
         /**
          * @public string plugin DB version
          */
@@ -86,9 +86,9 @@ class WpBitbucket {
         function setup_actions(){
            
             //localization (nothing to localize yet, so disable it)
-            //add_action('init', array($this, 'load_plugin_textdomain'));
+            add_action('init', array($this, 'load_plugin_textdomain'));
             //upgrade
-            //add_action( 'plugins_loaded', array($this, 'upgrade'));
+            add_action( 'plugins_loaded', array($this, 'upgrade'));
             
             //register scripts & styles
             add_action('init', array($this, 'register_scripts_styles'));
@@ -122,7 +122,7 @@ class WpBitbucket {
         }
  
         function register_scripts_styles(){
-            wp_register_style( $this->prefix.'-newsfeed', $this->plugin_url . '_inc/css/newsfeed.css',false,$this->version);
+            wp_register_style( $this->basename.'-newsfeed', $this->plugin_url . '_inc/css/newsfeed.css',false,$this->version);
         }
         
         function process_shortcode( $atts, $content="" ) {
@@ -168,7 +168,7 @@ class WpBitbucket {
             
             if($input_doc){
                 $this->input_doc = $input_doc;
-                wp_enqueue_style( $this->prefix.'-newsfeed' );
+                wp_enqueue_style( $this->basename.'-newsfeed' );
             }
             
             return self::get_block($this->section,$this->selector);
@@ -228,8 +228,8 @@ class WpBitbucket {
             if ($element->htmlOuter()){
                 $block = $element->htmlOuter();
 
-                $block = str_replace('="/'.$this->user.'/'.$this->project,'="'.$this->project_url,$block);//replace local project links
-                $block = str_replace('="/'.$this->user,'="'.$this->user_url,$block);//replace local user links
+                
+                $block = str_replace('="/'.$this->user,'="'.untrailingslashit($this->user_url),$block);//replace local user links
                 $block = '<div class="wp-bitbucket">'.$block.'</div>';
             }
         }
